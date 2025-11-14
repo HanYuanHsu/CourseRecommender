@@ -30,5 +30,7 @@ conda create -n CourseRecommender python=3.10
 cd CourseRecommender
 pip install -r requirements.txt
 ```
+
+4. Set up API keys in the environment variables `OPENAI_API_KEY` and `ELEVENLABS_API_KEY`. 
 # To run
 Go to the `Main Files` directory and run `python main.py`. This hosts the course recommender web app.
