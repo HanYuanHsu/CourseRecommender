@@ -13,7 +13,7 @@ def generate_speech(message,id,flag=0):
     audio = generate(
         text=message,
         voice="Bella",
-        model='eleven_monolingual_v1'
+        #model='eleven_monolingual_v1'
     )
 
     print("\n",message,"\n")
